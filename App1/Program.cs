@@ -45,3 +45,17 @@ Console.WriteLine("total : " + values);
 
 Console.WriteLine("--------------------------------");
 
+Console.WriteLine("Enter Avg");
+double avg = Convert.ToDouble(Console.ReadLine());
+if (avg < 50 && avg >= 100)
+{
+    Console.WriteLine("Pass");
+}
+else if (avg < 50 && avg >= 0)
+{
+    Console.WriteLine("Fail");
+}
+else
+{
+    Console.WriteLine("Out of Range");
+}
