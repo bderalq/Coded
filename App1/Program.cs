@@ -29,7 +29,7 @@ string City = Console.ReadLine();
 
 Console.WriteLine("Welcome " + FulllName + " My city is : " + City);
 
-Console.WriteLine("--------------------------------");
+Console.WriteLine("-----------------------------");
 
 Console.WriteLine("Enter value one: ");
 string value1 = Console.ReadLine();
